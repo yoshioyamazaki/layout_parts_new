@@ -7,11 +7,11 @@
 }
 
 /* q6-1 */
-.q6_1_text-align-parent {
+.text-align-parent {
   text-align: center;
 }
 
-.q6_1_text-align-child {
+.text-align-child {
   display: inline-block;
   background-color: #e6f2ff;
   padding: 10px;
@@ -19,7 +19,7 @@
 }
 
 
-.q6_1_margin {
+.margin {
   background-color: #e6f2ff;
   margin: 0 auto;
   padding: 10px;
@@ -34,13 +34,13 @@
   display: table;
 }
 
-.q6_2 {  
+.table_cell {  
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
 
-.q6_2_table {
+.table {
   display: inline-block;
   background-color: #fff;
   padding: 10px;
@@ -53,7 +53,7 @@
   justify-content: center;
 }
 
-.q6_2_flex {
+.flex {
   display: block;
   background-color: #fff;
   padding: 10px;
@@ -66,7 +66,7 @@
   position: relative;
 }
 
-.q6__box__inner1 {
+.position_right {
   position: absolute;
   background-color: #e6f2ff;
   text-align: center;
@@ -89,7 +89,7 @@
   height: 30px;
 }
 
-.q6__box__inner2 {
+.position_left {
   position: absolute;
   background-color: #e6f2ff;
   padding: 10px;
@@ -99,5 +99,8 @@
 }
 
 /* q6-2 end*/
+
+/* class名に数字の指定をなくす */
+
 
 /* 回答はここに書いてね */
