@@ -30,8 +30,11 @@
   background-color: #ecf1f2;
 }
 
-tfoot:last-child {
+.graph tfoot {
   border-top: dashed #000 2px;
 }
+
+/* tfootのみの指定だったが、.graph tfootに指定　*/
+/* html インデントを修正　*/
 
 /* 回答はここに書いてね */
