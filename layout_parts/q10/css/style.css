@@ -2,4 +2,35 @@
 
 /* 回答はここに書いてね */
 
+
+.callout {
+  position: relative;
+  padding: 20px;
+  width: 500px;
+  border: solid 5px #222;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.text {
+  font-size: 16px;
+}
+
+.callout:before {
+  content: "";
+  position: absolute;
+  bottom: -45px;
+  left: 30px;
+  border: 20px solid transparent;
+  border-top-color: #222;
+}
+
+.callout:after {
+  content: "";
+  position: absolute;
+  bottom: -38px;
+  left: 30px;
+  border: 20px solid transparent;
+  border-top-color: white;
+}
 /* 回答はここに書いてね */

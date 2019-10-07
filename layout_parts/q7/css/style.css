@@ -2,4 +2,97 @@
 
 /* 回答はここに書いてね */
 
+/* -----float---- */
+
+.float {
+  box-sizing: border-box;
+  float:left;
+  width: 225px;
+  font-size: 16px;
+}
+
+.float:first-child{
+  margin-right: 50px;
+}
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+/* -----table----- */
+
+.table_parent {
+  display: table;
+}
+
+.table_child {
+  display: table-cell;
+  vertical-align: middle;
+  border-collapse: separate;
+  padding-left:50px;
+}
+
+.table_child:first-child {
+  padding-left: 0;
+}
+
+.table_text {
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 225px;
+}
+
+/* ------inline-block---- */
+
+.inlineblock_parent {
+  font-size: 0;
+}
+
+.inlineblock_child {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 225px;
+  font-size: 16px;
+}
+
+.inlineblock_child:first-child {
+  margin-right:50px;
+}
+
+/* -------flex---- */
+
+.flex_parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex_child {
+  box-sizing: border-box;
+  width: 225px;
+  font-size: 16px;
+}
+
+/*------inline block margin------ */
+
+.margin__block {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.margin__parent_left {
+  width: 300px;
+  margin-right: 50px;
+}
+
+.margnin__parent_right{
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
 /* 回答はここに書いてね */

@@ -2,4 +2,78 @@
 
 /* 回答はここに書いてね */
 
+.car_photo {
+  position: relative;
+  width: 500px;
+  height: 333px;
+  margin: 0 auto;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.photo_scale{
+  position: absolute;
+  width: 100%;
+  transition-duration: 0.5s;
+}
+
+.car_photo:hover .photo_scale {
+  transform: scale(1.5,1.5);
+  transition-duration: 0.5s;
+}
+
+.photo_text_parent {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  bottom: -100%;
+  transition-duration: 0.5s;
+  background:linear-gradient( rgba(0,0,0,0), rgba(0,0,0,8));
+  transform : translate(0, 50px);
+  transition : all 300ms;
+}
+
+.photo_text{
+  position: absolute;
+  box-sizing: border-box;
+  word-break: break-all;
+  width:  100%;
+  bottom: 0;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 20px;
+  color: #fff;
+}
+
+.car_photo:hover .photo_text_parent {
+  opacity: 1;
+  transform : translate(0, 0);
+  transition-duration: 0.5s;
+  bottom:0;
+}
+
+
+/* ---------------- */
+
+.loading {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border: 10px solid #ECF1F2;
+  border-top-color: #00bcd4; 
+  animation: load 1.1s infinite linear;
+  border-radius: 50%;
+}
+
+@keyframes load {
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
 /* 回答はここに書いてね */
