@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+img {
+  vertical-align: top;
+}
 
 .q2-content {
   width: 900px;
@@ -18,7 +20,6 @@
 
 
 .left {
-  line-height: 0;
   float: left;
   margin-right: 20px;
   margin-bottom: 10px;
@@ -26,14 +27,11 @@
 }
 
 .right {
-  line-height: 0;
   float: right;
   margin-left: 20px;
   margin-bottom:10px;
 }
 
-/* gazou sukima syuusei */
-/* br */
-
+/* vertical-alig-topを用いて画像の隙間を消す*/
 
 /* 回答はここに書いてね */
