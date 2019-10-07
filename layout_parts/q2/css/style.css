@@ -17,18 +17,23 @@
 }
 
 
-.img1 {
+.left {
+  line-height: 0;
   float: left;
   margin-right: 20px;
   margin-bottom: 10px;
 
 }
 
-.img2 {
+.right {
+  line-height: 0;
   float: right;
   margin-left: 20px;
   margin-bottom:10px;
 }
+
+/* gazou sukima syuusei */
+/* br */
 
 
 /* 回答はここに書いてね */

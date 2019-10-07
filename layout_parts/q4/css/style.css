@@ -2,13 +2,14 @@
 
 /* 回答はここに書いてね */
 
-
+.q4 {
+  box-sizing: border-box;
+  padding: 20px;
+}
 
 .container {
-  box-sizing: border-box;
   display: table;
   width: 100%;
-  padding:20px;
 }
 
 .item {
@@ -17,31 +18,34 @@
   padding: 20px;
 }
 
-.cell-a {
+.skin-color {
   width: 100px;
   background-color: #fdc8b8;
 }
 
-.cell-b {
+.purple {
   background-color: #e0abd9;
 }
-.cell-c {
+.blue {
   width: 100px;
   background-color: #b6d8ed;
 }
 
-.cell-d {
+.yellow {
   background-color: #e5d32e;
 }
 
-.cell-e {
+.red {
   background-color: #ec8f9a;
 }
 
-.cell-f {
+.green {
   width: 500px;
   background-color: #8fdcad;
 }
 
+.container:last-child {
+  margin-top: 20px;
+}
 
 /* 回答はここに書いてね */

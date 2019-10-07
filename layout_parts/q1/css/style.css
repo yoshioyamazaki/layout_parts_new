@@ -20,6 +20,7 @@
   float: left;
   background-color: #3274ae;
   width: 230px;
+  margin-left: 20px;
   padding: 20px;
 }
 
@@ -34,4 +35,5 @@
 .q1-content .q1-content-box:first-child {
   margin-left: 0;
 }
+
 /* 回答はここに書いてね */

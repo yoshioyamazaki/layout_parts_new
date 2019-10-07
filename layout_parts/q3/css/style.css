@@ -2,13 +2,13 @@
 
 /* 回答はここに書いてね */
 
-table {
+.graph {
   width: 100%;
   table-layout: fixed;
 }
 
 
-table tr td  {
+.graph tr td  {
   border: solid #dedede 1px;
   padding: 10px;
   font-size: 16px;
@@ -16,7 +16,7 @@ table tr td  {
   text-align: center;
 }
 
-table tr th {
+.graph tr th {
   border: solid #dedede 1px;
   background-color: #2233aa;
   padding: 10px;
@@ -26,11 +26,12 @@ table tr th {
 }
 
 
-table tr:nth-child(odd) {
+.graph tr:nth-child(odd) {
   background-color: #ecf1f2;
 }
 
-table tr:nth-child(5) {
-  border-bottom: dashed #000 2px;
+tfoot:last-child {
+  border-top: dashed #000 2px;
 }
+
 /* 回答はここに書いてね */
