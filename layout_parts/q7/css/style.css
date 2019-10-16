@@ -9,10 +9,11 @@
   float:left;
   width: 225px;
   font-size: 16px;
+  margin-right: 50px;
 }
 
-.float:first-child{
-  margin-right: 50px;
+.float:last-child{
+  margin-right: 0;
 }
 
 .clearfix:after {
@@ -56,10 +57,11 @@
   box-sizing: border-box;
   width: 225px;
   font-size: 16px;
+  margin-right:50px;
 }
 
-.inlineblock_child:first-child {
-  margin-right:50px;
+.inlineblock_child:last-child {
+  margin-right: 0;
 }
 
 /* -------flex---- */
@@ -96,3 +98,6 @@
 }
 
 /* 回答はここに書いてね */
+
+
+

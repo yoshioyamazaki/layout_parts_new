@@ -16,21 +16,23 @@
   font-size: 16px;
 }
 
-.callout:before {
+.callout:before,.callout:after{
   content: "";
   position: absolute;
+  border: 20px solid transparent;
+}
+
+.callout:before {
   bottom: -45px;
   left: 30px;
-  border: 20px solid transparent;
   border-top-color: #222;
 }
 
 .callout:after {
-  content: "";
-  position: absolute;
   bottom: -38px;
   left: 30px;
-  border: 20px solid transparent;
   border-top-color: white;
 }
 /* 回答はここに書いてね */
+
+/* 
